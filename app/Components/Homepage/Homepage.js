@@ -1,13 +1,14 @@
 "use client";
 import React, { useEffect } from 'react'
-import Work from '../Work';
+import Aboutme from '../Aboutme';
 import Splide from '@splidejs/splide';
 import '@splidejs/splide/dist/css/splide.min.css';
 import Head from 'next/head';
 import '../../styles.css';
 import Nav from '../Nav/Nav';
-import Services from '../Services/Services';
-import Clients from '../Clients/Clients';
+import Skills from '../Skills/Skills';
+import Certificates from '../Certificates/Certificates';
+import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 
 
@@ -37,11 +38,14 @@ function Homepage() {
             <Nav/>
 
             <main className="container mx-auto mt-10 font-mono">
-                <Work />
+                <Aboutme/>
 
-                <Services/>
+                <Skills/>
 
-                <Clients/>
+                <Projects/>
+
+                <Certificates/>
+
 
                 <Footer/>
             </main>
