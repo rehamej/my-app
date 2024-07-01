@@ -10,9 +10,13 @@ import Skills from '../Skills/Skills';
 import Certificates from '../Certificates/Certificates';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
+import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher';
 
 
 function Homepage() {
+
+  
+
     useEffect(() => {
         const splide = new Splide('.splide');
         const bar = document.querySelector('.my-slider-progress-bar');
@@ -33,11 +37,15 @@ function Homepage() {
             <Head>
                 <title>Sarah's Creative Services</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Luxurious+Roman&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Ultra&display=swap" rel="stylesheet" />
             </Head>
 
+            <ThemeSwitcher/>
             <Nav/>
 
-            <main className="container mx-auto mt-10 font-mono">
+            <main className="container mx-auto mt-10 font-mono max-w-none sm:text-2xl">
                 <Aboutme/>
 
                 <Skills/>
