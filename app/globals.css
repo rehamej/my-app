@@ -21,13 +21,13 @@ html{
 }
 
 body {
-  background-color: rgb(242 227 229);;
+  background-color: #FFDAB9;
   font-family: cursive;
-  color: #ca3d83;
+  color: #F4978E;
   font-size: 3rem;
 } 
 h2{
-  color:  #681b32;
+  color: #d77272;
   font-family: 'Ultra', serif;
   font-size: 2rem;
   font-weight: bold;
@@ -35,7 +35,7 @@ h2{
 
 
 button {
-  background-color: #ec4899;
+  background-color: #F08080;
   color: #fff;
   padding: 0.75rem 1.5rem;
   margin-top: 0.5rem;
@@ -47,13 +47,13 @@ button {
 }
 
 button:hover {
-  background-color: #d83476;
+  /* background-color: #d83476; */
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 button:active {
-  background-color: #c02663;
+  /* background-color: #c02663; */
   transform: translateY(0);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

@@ -6,9 +6,8 @@ function Skills() {
     <section id="pre-services" className="text-center mb-16 bg-white pt-20 pb-20 w-full ">
     <h2 className=" font-bold text-center mb-8  text-3xl sm:text-4xl md:text-2xl">My Skills</h2>
     <p className=" mt-4 mx-auto max-w-4xl text-3xl sm:text-2xl md:text-2xl">
-        Cozy up with another cup of coffee and learn more about how you,
-        your team, or organization can go from being the industry influencer
-        with real strategies and customized content with me.
+    Discover how innovative approaches and personalized solutions can transform your vision into a reality, 
+    positioning you as a leader in your industry. Explore the potential for growth and success with me.
     </p>
     <div className="services flex justify-evenly mt-10  md:flex-nowrap flex-wrap md:flex-row flex-col text-3xl sm:text-xl gap-12">
         <div className="service flex flex-col items-center text-center ">

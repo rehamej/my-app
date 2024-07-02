@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 
 const colorPalettes = {
   palette1: {
-    bodyBg: 'rgb(242 227 229)',
-    fontColor: '#ca3d83',
-    headingColor: '#681b32',
-    buttonBg: '#ec4899',
+    bodyBg: '#FFDAB9',
+    fontColor: '#F4978E',
+    headingColor: '#d77272',
+    buttonBg: '#F08080',
     buttonColor: '#fff',
   },
   palette2: {
@@ -43,9 +43,9 @@ const ColorPaletteSwitcher = () => {
 
   return (
     <div className="gap-4 flex mx-4 my-2 text-xs justify-center">
-      <button onClick={() => setPalette('palette1')}>Palette 1</button>
-      <button onClick={() => setPalette('palette2')}>Palette 2</button>
-      <button onClick={() => setPalette('palette3')}>Palette 3</button>
+      <button className="rounded-full" onClick={() => setPalette('palette1')}>Palette 1</button>
+      <button className="rounded-full" onClick={() => setPalette('palette2')}>Palette 2</button>
+      <button className="rounded-full"  onClick={() => setPalette('palette3')}>Palette 3</button>
     </div>
   );
 };

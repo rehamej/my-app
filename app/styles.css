@@ -31,7 +31,7 @@ button {
 }
 
 .my-slider-progress-bar {
-  background: #cc3260;
+  /* background: #cc3260; */
   height: 2px;
   transition: width 400ms ease;
   width: 0;
