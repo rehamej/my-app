@@ -1,4 +1,3 @@
-// app/Components/ColorPaletteSwitcher.js
 import React, { useState, useEffect } from 'react';
 
 const colorPalettes = {
@@ -42,10 +41,10 @@ const ColorPaletteSwitcher = () => {
   }, [palette]);
 
   return (
-    <div className="gap-4 flex mx-4 my-2 text-xs justify-center">
-      <button className="rounded-full" onClick={() => setPalette('palette1')}>Palette 1</button>
-      <button className="rounded-full" onClick={() => setPalette('palette2')}>Palette 2</button>
-      <button className="rounded-full"  onClick={() => setPalette('palette3')}>Palette 3</button>
+    <div className="palette-buttons flex md:flex-row flex-col">
+      <button className="palette-btn" onClick={() => setPalette('palette1')}>Palette 1</button>
+      <button className="palette-btn" onClick={() => setPalette('palette2')}>Palette 2</button>
+      <button className="palette-btn" onClick={() => setPalette('palette3')}>Palette 3</button>
     </div>
   );
 };
